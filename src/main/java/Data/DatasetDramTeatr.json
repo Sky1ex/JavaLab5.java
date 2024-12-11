@@ -1,0 +1,601 @@
+[ {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "12 Чт 18:30",
+  "imgAddress" : "/media/afisha/2639_08cc8aafe78756e722313741b8e98c.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "13 Пт 18:30",
+  "imgAddress" : "/media/afisha/2640_762cbe9bf7059faca6becae429708d.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "14 Сб 14:00",
+  "imgAddress" : "/media/afisha/2645_88ce5980bd32d9f18e93924b947473.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "15 Вс 11:00",
+  "imgAddress" : "/media/afisha/2702_0a69e3ae778a2cbd71f62ffa3fc781.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "15 Вс 14:00",
+  "imgAddress" : "/media/afisha/2646_62c9cb90625e63b7ce8b264dc1b549.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 150,
+  "date" : "15 Вс 18:00",
+  "imgAddress" : "/media/afisha/2661_17bda48b7018f22ccda154011bf752.jpg"
+}, {
+  "name" : "Не доверяй мужчинам! (спецпоказ для пенсионеров)16+",
+  "ageLimit" : "16+",
+  "size" : 140,
+  "date" : "17 Вт 11:00",
+  "imgAddress" : "/media/afisha/2724_6cd6338136cb5d851ba69cd066eb02.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "17 Вт 18:30",
+  "imgAddress" : "/media/afisha/2641_568a6ebdee3aebe89fe99ec6b34a4a.jpg"
+}, {
+  "name" : "Монарх16+",
+  "ageLimit" : "16+",
+  "size" : 170,
+  "date" : "18 Ср 18:30",
+  "imgAddress" : "/media/afisha/2650_b6920eb9e7612871335c2d8d394ea6.jpg"
+}, {
+  "name" : "Шукшин. Рассказы12+",
+  "ageLimit" : "12+",
+  "size" : 140,
+  "date" : "19 Чт 18:30",
+  "imgAddress" : "/media/afisha/2652_d0c3cfa4bccdcef25db53300b68b4d.jpg"
+}, {
+  "name" : "Дядя Ваня16+",
+  "ageLimit" : "16+",
+  "size" : 135,
+  "date" : "20 Пт 18:30",
+  "imgAddress" : "/media/afisha/2653_ab479175291c161cf33ffccb1b5010.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "21 Сб 11:00",
+  "imgAddress" : "/media/afisha/2654_49bc2aaff70e57c20830d817b7391a.jpg"
+}, {
+  "name" : "#Я_Раскольников12+",
+  "ageLimit" : "12+",
+  "size" : 80,
+  "date" : "21 Сб 17:00",
+  "imgAddress" : "/media/afisha/2651_0546ee8858dcee55e1b2b3391f02cd.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "22 Вс 11:00",
+  "imgAddress" : "/media/afisha/2703_d70673a50da850f7170621bb9206ac.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "22 Вс 14:00",
+  "imgAddress" : "/media/afisha/2647_09197141722da43493eb7e32340748.jpg"
+}, {
+  "name" : "Эх, женюсь на молоденькой!12+",
+  "ageLimit" : "12+",
+  "size" : 150,
+  "date" : "22 Вс 17:00",
+  "imgAddress" : "/media/afisha/2679_08f1e275e6783f24ae347442d2087e.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "24 Вт 10:30",
+  "imgAddress" : "/media/afisha/2680_a359209e469eaea78677fd90179eb3.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "24 Вт 14:00",
+  "imgAddress" : "/media/afisha/2664_5f354d9646e18c9aacc3de257811ba.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "25 Ср 10:30",
+  "imgAddress" : "/media/afisha/2704_786e0825418c8fe8a9b668cb7b2724.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "25 Ср 14:00",
+  "imgAddress" : "/media/afisha/2706_d79bf306acde2ba52d48bf479038b3.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "26 Чт 10:30",
+  "imgAddress" : "/media/afisha/2707_0f0f4880c705e02fa6f717de785e0e.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "26 Чт 14:00",
+  "imgAddress" : "/media/afisha/2708_2086609d5216a0777b82966757890c.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "27 Пт 18:30",
+  "imgAddress" : "/media/afisha/2667_ad860d2043a24eaa301e0cc107e20e.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "28 Сб 11:00",
+  "imgAddress" : "/media/afisha/2655_71028bdc732c63448f2836196569e2.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "28 Сб 14:00",
+  "imgAddress" : "/media/afisha/2648_d6cbecaacd49bfa71c8bc322598890.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "28 Сб 17:00",
+  "imgAddress" : "/media/afisha/2668_071f2b2e7b662fe2c4c4c4f7b46d77.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "29 Вс 11:00",
+  "imgAddress" : "/media/afisha/2709_4faef882bcd3ca19dcf030897b5991.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "29 Вс 14:00",
+  "imgAddress" : "/media/afisha/2649_053e8def2ff334c24b39ad7e29241b.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "29 Вс 17:00",
+  "imgAddress" : "/media/afisha/2710_c16b307aa90502e98fe5a8e078e9f9.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 165,
+  "date" : "30 Пн 18:00",
+  "imgAddress" : "/media/afisha/2663_5bf2d8aeb62d70cd32cc1cfe17bbe3.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "31 Вт 10:30",
+  "imgAddress" : "/media/afisha/2665_b85ef89b44a7c81e8b7b8f3cd0a35d.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "31 Вт 14:00",
+  "imgAddress" : "/media/afisha/2666_51ac5695a9f6b26e3ff6c456fbd257.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "02 Чт 11:00",
+  "imgAddress" : "/media/afisha/2682_2da306f646d1c817cae0f68fa0349c.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "02 Чт 14:00",
+  "imgAddress" : "/media/afisha/2656_aafc25f9b669877bb946ed9a4ae1af.jpg"
+}, {
+  "name" : "На всякого мудреца довольно простоты16+",
+  "ageLimit" : "16+",
+  "size" : 110,
+  "date" : "02 Чт 18:00",
+  "imgAddress" : "/media/afisha/2676_9e0fd2196c0df84538a219f91ed02f.jpg"
+}, {
+  "name" : "Конёк-горбунок6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "03 Пт 11:00",
+  "imgAddress" : "/media/afisha/2684_c6443152447decddf401da770774aa.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "03 Пт 14:00",
+  "imgAddress" : "/media/afisha/2657_fc23069523df83b649215b58b8fc94.jpg"
+}, {
+  "name" : "Здравствуйте, я ваша тётя!12+",
+  "ageLimit" : "12+",
+  "size" : 120,
+  "date" : "03 Пт 18:00",
+  "imgAddress" : "/media/afisha/2677_0826f82184120e9aaf674b91238cb5.jpg"
+}, {
+  "name" : "Мэри Поппинс6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "04 Сб 11:00",
+  "imgAddress" : "/media/afisha/2685_adc01e997053147eaeb8cfe22f0267.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "04 Сб 14:00",
+  "imgAddress" : "/media/afisha/2658_4bd3894a02103a656dcdbc2a92433d.jpg"
+}, {
+  "name" : "Тайна замка Рейвенскрофт16+",
+  "ageLimit" : "16+",
+  "size" : 140,
+  "date" : "04 Сб 18:00",
+  "imgAddress" : "/media/afisha/2675_de0257143d2e24d5f028ae30921340.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "05 Вс 11:00",
+  "imgAddress" : "/media/afisha/2711_c4b96901f955ed67664898c1f92ee8.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "05 Вс 14:00",
+  "imgAddress" : "/media/afisha/2659_2fc1ac3c65204cb7311448cd0310d7.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 150,
+  "date" : "05 Вс 18:00",
+  "imgAddress" : "/media/afisha/2683_d12e91d3794aadd266608913ccb551.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "06 Пн 14:00",
+  "imgAddress" : "/media/afisha/2660_f8b813211224d1feed29d8954cc713.jpg"
+}, {
+  "name" : "Монарх16+",
+  "ageLimit" : "16+",
+  "size" : 170,
+  "date" : "06 Пн 18:00",
+  "imgAddress" : "/media/afisha/2674_31afdfa50221bb759b4d27150581ef.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "07 Вт 17:00",
+  "imgAddress" : "/media/afisha/2670_427ef94645d97dd456362c01e17c54.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "08 Ср 11:00",
+  "imgAddress" : "/media/afisha/2681_2cb3cc97aa5102d362fa3bd1c797ca.jpg"
+}, {
+  "name" : "Вечеринка у кота Леопольда0+",
+  "ageLimit" : "0+",
+  "size" : 50,
+  "date" : "08 Ср 14:00",
+  "imgAddress" : "/media/afisha/2725_70ead2b3b3510b7d2a6a31e9c06088.jpg"
+}, {
+  "name" : "Осенняя кадриль16+",
+  "ageLimit" : "16+",
+  "size" : 120,
+  "date" : "08 Ср 18:00",
+  "imgAddress" : "/media/afisha/2678_54b6ffc89c6158a1d6f3299deb36be.jpg"
+}, {
+  "name" : "Старый Новый год6+",
+  "ageLimit" : "6+",
+  "size" : 120,
+  "date" : "13 Пн 19:00",
+  "imgAddress" : "/media/afisha/2733_e9255ab66994c0ed6ede0a2215f7f0.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "16 Чт 15:00",
+  "imgAddress" : "/media/afisha/2721_9396061914ae3f393c37e8e55a0249.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "16 Чт 18:30",
+  "imgAddress" : "/media/afisha/2722_523a044515bc243a6a9a26d63dcc4f.jpg"
+}, {
+  "name" : "Дядя Ваня16+",
+  "ageLimit" : "16+",
+  "size" : 135,
+  "date" : "17 Пт 18:30",
+  "imgAddress" : "/media/afisha/2713_264ef7182e4c260ba8dcb5e1963b73.jpg"
+}, {
+  "name" : "Монарх16+",
+  "ageLimit" : "16+",
+  "size" : 170,
+  "date" : "18 Сб 17:00",
+  "imgAddress" : "/media/afisha/2717_c5a1cf1c1cc769b662b7e4d20aa0da.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "19 Вс 11:00",
+  "imgAddress" : "/media/afisha/2712_d4fff09c1fa52e28af9424a74ab8fc.jpg"
+}, {
+  "name" : "Не доверяй мужчинам!16+",
+  "ageLimit" : "16+",
+  "size" : 140,
+  "date" : "19 Вс 17:00",
+  "imgAddress" : "/media/afisha/2714_063eb6cb7784bc851084b477ab5e7e.jpg"
+}, {
+  "name" : "#Я_Раскольников12+",
+  "ageLimit" : "12+",
+  "size" : 80,
+  "date" : "21 Вт 15:00",
+  "imgAddress" : "/media/afisha/2718_b8573e260ecf8ea1fed206d0ca3b7a.jpg"
+}, {
+  "name" : "#Я_Раскольников12+",
+  "ageLimit" : "12+",
+  "size" : 80,
+  "date" : "21 Вт 18:30",
+  "imgAddress" : "/media/afisha/2719_756c0d26118d8b816859de6c689cb5.jpg"
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "22 Ср 15:00",
+  "imgAddress" : "/media/afisha/2715_b9bd6cfba51821d692c81a4260379f.jpg"
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "22 Ср 18:30",
+  "imgAddress" : "/media/afisha/2716_2df90797d028a926891b130e90d156.jpg"
+}, {
+  "name" : "Шукшин. Рассказы12+",
+  "ageLimit" : "12+",
+  "size" : 140,
+  "date" : "23 Чт 18:30",
+  "imgAddress" : "/media/afisha/2720_cc3ebec224c75e98c496dc1673d9c5.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "24 Пт 18:30",
+  "imgAddress" : "/media/afisha/2726_d5b801c3a50e9b2e7022f8f1520606.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "25 Сб 11:00",
+  "imgAddress" : "/media/afisha/2727_514fcc7afd81489602ae5452d62787.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "25 Сб 15:00",
+  "imgAddress" : "/media/afisha/2728_895c512d5f38af1d7d859df7e73abf.jpg"
+}, {
+  "name" : "Почему каждый раз12+",
+  "ageLimit" : "12+",
+  "size" : 120,
+  "date" : "25 Сб 17:00",
+  "imgAddress" : "/media/afisha/2692_dfbf5a9a0e8c434d8ee6d71b546288.jpg"
+}, {
+  "name" : "Всё можно… или как прожить без взрослых6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "26 Вс 11:00",
+  "imgAddress" : "/media/afisha/2729_6db29fc670b9a4d0c32029d60e419b.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 150,
+  "date" : "26 Вс 18:00",
+  "imgAddress" : "/media/afisha/2730_ef1f2274d2a242b0c6d14a2fe06711.jpg"
+}, {
+  "name" : "Белые ночи12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "28 Вт 15:00",
+  "imgAddress" : "/media/afisha/2736_564c3a9dba907eb1cad546a80b9c76.jpg"
+}, {
+  "name" : "Белые ночи12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "28 Вт 18:30",
+  "imgAddress" : "/media/afisha/2737_152a00d24fc37fdaf5c75216018e32.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "05 Ср 15:00",
+  "imgAddress" : "/media/afisha/2742_c678cf851eb7c94b217af782c5e24d.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "05 Ср 18:30",
+  "imgAddress" : "/media/afisha/2743_5abead394d4e67ddb6923bcdc3eaed.jpg"
+}, {
+  "name" : "Семейка Краузе16+",
+  "ageLimit" : "16+",
+  "size" : 140,
+  "date" : "06 Чт 18:30",
+  "imgAddress" : "/media/afisha/2744_79cd8f4f12fff0f219122dc9562dcb.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 150,
+  "date" : "07 Пт 18:30",
+  "imgAddress" : "/media/afisha/2741_6042989ddd14cf348169458a0f8bfa.jpg"
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "08 Сб 11:00",
+  "imgAddress" : "/media/afisha/2745_926945abb54ebc5141e53aa820dc21.jpg"
+}, {
+  "name" : "Монарх16+",
+  "ageLimit" : "16+",
+  "size" : 170,
+  "date" : "08 Сб 17:00",
+  "imgAddress" : "/media/afisha/2746_64b4f68c1f39cc49ba9b01e8e8f792.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "09 Вс 11:00",
+  "imgAddress" : "/media/afisha/2747_517ee5954a613cec5ac3b29b72439c.jpg"
+}, {
+  "name" : "Осенняя кадриль16+",
+  "ageLimit" : "16+",
+  "size" : 120,
+  "date" : "09 Вс 17:00",
+  "imgAddress" : "/media/afisha/2748_20e0748f93ca03bf0aa7737d3a9b60.jpg"
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "11 Вт 15:00",
+  "imgAddress" : "/media/afisha/2749_9a5966cd3c432fe7bb328d3b8179c1.jpg"
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "11 Вт 18:30",
+  "imgAddress" : "/media/afisha/2750_5be26ac0385d56347b81f5cb7122fe.jpg"
+}, {
+  "name" : "#Я_Раскольников12+",
+  "ageLimit" : "12+",
+  "size" : 80,
+  "date" : "12 Ср 18:30",
+  "imgAddress" : "/media/afisha/2751_04629b5b30dad580c58e5fd9ec2e80.jpg"
+}, {
+  "name" : "Шукшин. Рассказы12+",
+  "ageLimit" : "12+",
+  "size" : 140,
+  "date" : "14 Пт 18:30",
+  "imgAddress" : "/media/afisha/2752_02c4ea7b22366f9936a4c73e47dfd1.jpg"
+}, {
+  "name" : "Здравствуйте, я ваша тётя!12+",
+  "ageLimit" : "12+",
+  "size" : 120,
+  "date" : "15 Сб 17:00",
+  "imgAddress" : "/media/afisha/2753_8df88920a735c2ffe580355b594cd0.jpg"
+}, {
+  "name" : "Мэри Поппинс6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "16 Вс 11:00",
+  "imgAddress" : "/media/afisha/2754_842f84d2a7c9e9e5a3991198cf8363.jpg"
+}, {
+  "name" : "Тайна замка Рейвенскрофт16+",
+  "ageLimit" : "16+",
+  "size" : 140,
+  "date" : "16 Вс 17:00",
+  "imgAddress" : "/media/afisha/2755_704380f4d7749b497d3b4c49170134.jpg"
+}, {
+  "name" : "Белые ночи12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "18 Вт 15:00",
+  "imgAddress" : "/media/afisha/2756_5b73441a2959826c89985198a32f60.jpg"
+}, {
+  "name" : "Белые ночи12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "18 Вт 18:30",
+  "imgAddress" : "/media/afisha/2757_30eb3e2a666ed18d0247f87d10ec65.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "19 Ср 11:00",
+  "imgAddress" : "/media/afisha/2758_d14c09157b3397ed03964b04cfb7ad.jpg"
+}, {
+  "name" : "Судьба человека12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "19 Ср 18:30",
+  "imgAddress" : "/media/afisha/2759_e2264cb54c7ad9a1b312b126baffa0.jpg"
+}, {
+  "name" : "Пиковая дама16+",
+  "ageLimit" : "16+",
+  "size" : 150,
+  "date" : "20 Чт 18:30",
+  "imgAddress" : "/media/afisha/2761_3d87bbc8d8532cb32e94114d82d5db.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "21 Пт 18:30",
+  "imgAddress" : "/media/afisha/2762_c3711eabc63c78709332bed4da16bf.jpg"
+}, {
+  "name" : "Хлынов. Сага о городе и его жителях16+",
+  "ageLimit" : "16+",
+  "size" : 180,
+  "date" : "22 Сб 17:00",
+  "imgAddress" : "/media/afisha/2763_fb1444222e2f69bab9ceab74d8a2af.jpg"
+}, {
+  "name" : "Сказка о потерянном времени6+",
+  "ageLimit" : "6+",
+  "size" : 50,
+  "date" : "23 Вс 11:00",
+  "imgAddress" : "/media/afisha/2765_f0e844ec3716474e5efc59601324c9.jpg"
+}, {
+  "name" : "Судьба человека12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "date" : "23 Вс 17:00",
+  "imgAddress" : "/media/afisha/2764_6ebf113268c5d88bde2a30aa19094b.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "25 Вт 15:00",
+  "imgAddress" : "/media/afisha/2766_8520eb55863bf4caacf14d428436e9.jpg"
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "date" : "25 Вт 18:30",
+  "imgAddress" : "/media/afisha/2767_7f2bc15518a88ae9bab4fa103ec16b.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "26 Ср 15:00",
+  "imgAddress" : "/media/afisha/2768_bca152d8e6fc7ab9ad653d11d506e5.jpg"
+}, {
+  "name" : "Женщины Сергея Есенина, или Любовь хулигана16+",
+  "ageLimit" : "16+",
+  "size" : 100,
+  "date" : "26 Ср 18:30",
+  "imgAddress" : "/media/afisha/2769_f5e7a5bfd72d904b3e48e1aaf6915a.jpg"
+}, {
+  "name" : "На всякого мудреца довольно простоты16+",
+  "ageLimit" : "16+",
+  "size" : 110,
+  "date" : "27 Чт 18:30",
+  "imgAddress" : "/media/afisha/2770_69186d4cf4c00f95144f73e54c2101.jpg"
+}, {
+  "name" : "Дядя Ваня16+",
+  "ageLimit" : "16+",
+  "size" : 135,
+  "date" : "28 Пт 18:30",
+  "imgAddress" : "/media/afisha/2771_20973a2e7cc132adac8e449fb70a2b.jpg"
+} ]

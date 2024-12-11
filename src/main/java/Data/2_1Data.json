@@ -1,0 +1,49 @@
+[ {
+  "name" : "Сказка о потерянном времени6+",
+  "ageLimit" : "6+",
+  "size" : 50,
+  "date" : "23 Вс 11:00",
+  "imgAddress" : "/media/afisha/2765_f0e844ec3716474e5efc59601324c9.jpg"
+}, {
+  "name" : "Малыш и Карлсон6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "15 Вс 11:00",
+  "imgAddress" : "/media/afisha/2702_0a69e3ae778a2cbd71f62ffa3fc781.jpg"
+}, {
+  "name" : "Всё можно… или как прожить без взрослых6+",
+  "ageLimit" : "6+",
+  "size" : 60,
+  "date" : "26 Вс 11:00",
+  "imgAddress" : "/media/afisha/2729_6db29fc670b9a4d0c32029d60e419b.jpg"
+}, {
+  "name" : "Драма-тур6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "14 Сб 14:00",
+  "imgAddress" : "/media/afisha/2645_88ce5980bd32d9f18e93924b947473.jpg"
+}, {
+  "name" : "Конёк-горбунок6+",
+  "ageLimit" : "6+",
+  "size" : 75,
+  "date" : "03 Пт 11:00",
+  "imgAddress" : "/media/afisha/2684_c6443152447decddf401da770774aa.jpg"
+}, {
+  "name" : "Волшебник Изумрудного города6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "24 Вт 10:30",
+  "imgAddress" : "/media/afisha/2680_a359209e469eaea78677fd90179eb3.jpg"
+}, {
+  "name" : "Мэри Поппинс6+",
+  "ageLimit" : "6+",
+  "size" : 80,
+  "date" : "04 Сб 11:00",
+  "imgAddress" : "/media/afisha/2685_adc01e997053147eaeb8cfe22f0267.jpg"
+}, {
+  "name" : "Старый Новый год6+",
+  "ageLimit" : "6+",
+  "size" : 120,
+  "date" : "13 Пн 19:00",
+  "imgAddress" : "/media/afisha/2733_e9255ab66994c0ed6ede0a2215f7f0.jpg"
+} ]
