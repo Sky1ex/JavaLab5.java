@@ -34,7 +34,7 @@ public class Article
 
     @Getter
     @XmlElement(name = "timeToRead")
-    private String timeToRead;
+    private int timeToRead;
 
     @Getter
     @XmlElement(name = "views")
@@ -75,7 +75,8 @@ public class Article
         date = date.substring(0, date.length() - 5);
         String[] date1 = date.split("-");
         this.realise = new Date(Integer.parseInt(date1[0]) - 1900, Integer.parseInt(date1[1]), Integer.parseInt(date1[2]) + 17, Integer.parseInt(date1[3]), Integer.parseInt(date1[4]), Integer.parseInt(date1[5])).toString();
-        this.timeToRead = art.select("div.tm-article-snippet.tm-article-snippet > div.tm-article-snippet__stats > div.tm-article-reading-time > span.tm-article-reading-time__label").text();
+        String timeToRead = art.select("div.tm-article-snippet.tm-article-snippet > div.tm-article-snippet__stats > div.tm-article-reading-time > span.tm-article-reading-time__label").text();
+        this.timeToRead = Integer.parseInt(timeToRead.substring(0, timeToRead.indexOf(" мин")));
         String views = art.select("div.tm-article-snippet.tm-article-snippet > div.tm-article-snippet__stats > span > span").text();
         if (views.endsWith("K")) {
             views = views.substring(0, views.length() - 1);

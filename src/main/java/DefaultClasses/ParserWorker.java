@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.jsoup.nodes.Document;
 
 import javax.xml.bind.JAXBException;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -34,7 +35,7 @@ public class ParserWorker<T>
 
     public interface Print<T>
     {
-        void Print(T e) throws JsonProcessingException, JAXBException;
+        void Print(T e) throws JsonProcessingException, JAXBException, ParserConfigurationException;
     }
 
     public Parser<T> getParser() {
@@ -58,12 +59,12 @@ public class ParserWorker<T>
         isActive = false;
     }
 
-    public void Start() throws IOException, JAXBException {
+    public void Start() throws IOException, JAXBException, ParserConfigurationException {
         isActive = true;
         Worker();
     }
 
-    public void Worker() throws IOException, JAXBException {
+    public void Worker() throws IOException, JAXBException, ParserConfigurationException {
         for (int i = parserSettings.getStartPoint(); i <= parserSettings.getEndPoint(); i++) {
             if (!isActive) {
                 onCompletedList.get(0).OnCompleted(this);

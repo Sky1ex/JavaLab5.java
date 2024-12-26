@@ -16,6 +16,10 @@ public class HabrParser implements Parser<ArrayList<Article>>
         ArrayList<Article> list = new ArrayList<Article>();
         for(org.jsoup.nodes.Element elem : article)
         {
+            String temp = elem.select("div.tm-article-snippet.tm-article-snippet > div.tm-article-snippet__meta-container > div > span > span > a.tm-user-info__username").text();
+            if(temp=="")
+                continue
+                        ;
             list.add(new Article(elem));
         }
         return list;

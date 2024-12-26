@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Articles>
+  <article>
+    <author>KonstantinKosvintsev</author>
+    <name>Junior, Middle, Senior-аналитики: результаты опроса по задачам и развитию навыков</name>
+    <realise>Wed Feb 12 17:21:59 MSK 2025</realise>
+    <timeToRead>5</timeToRead>
+    <views>340</views>
+    <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/e6d/868/e9e/e6d868e9ebfd12131ecd65dbd7947bb1.png</imgAddress>
+    <prehedder>Во втором полугодии 2024 года мы провели опрос среди аналитиков чтобы понять – как специалисты с разным опытом работы подходят к развитию своих профессиональных компетенций. В опросе участие 135 специалистов (бизнес-аналитики, системные аналитики и fullstack-аналитики). Несмотря на небольшое число опрошенных – нам показались интересными полученные результаты. «Для себя» мы используем полученные результаты при формировании «дорожных карт» профессионального развития аналитиков на разных этапах их карьеры.</prehedder>
+    <Rubriks>
+      <rubriks>Карьера в IT-индустрии</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>Kiborg777</author>
+    <name>Борьба со спамом и мошенничеством или почему не надо блокировать голосовые звонки в мессенджерах</name>
+    <realise>Wed Feb 12 15:24:09 MSK 2025</realise>
+    <timeToRead>3</timeToRead>
+    <views>979</views>
+    <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/d0a/2d5/d4e/d0a2d5d4ebe4831d38b295aabb5dbdc6.jpg</imgAddress>
+    <prehedder>Борьба со спамом и мошенничеством или почему не надо блокировать голосовые звонки в мессенджерах Несколько дней назад на Коммерсант Ру появилась новость. Минцифры и Роскомнадзор обсуждают ограничения на звонки в мессенджерах Как стало известно «Ъ», Минцифры и Роскомнадзор обсуждают возможность ввести ограничения на звонки в мессенджерах из-за активности мошенников. По словам источников «Ъ», рассматривается два сценария: блокировка голосового трафика только из-за границы и полный запрет на голосовые звонки в мессенджерах.</prehedder>
+    <Rubriks>
+      <rubriks>Спам и антиспам</rubriks>
+      <rubriks>Информационная безопасность*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>ImagineTables</author>
+    <name>Вы всё ещё устанавливаете display:none по таймауту? Тогда мы идём к вам</name>
+    <realise>Wed Feb 12 21:15:38 MSK 2025</realise>
+    <timeToRead>2</timeToRead>
+    <views>456</views>
+    <imgAddress></imgAddress>
+    <prehedder></prehedder>
+    <Rubriks>
+      <rubriks>CSS*</rubriks>
+      <rubriks>HTML*</rubriks>
+      <rubriks>JavaScript*</rubriks>
+      <rubriks>Веб-дизайн*</rubriks>
+      <rubriks>Веб-разработка*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>Ninen</author>
+    <name>Гайд по базе: что такое telegram-приложение</name>
+    <realise>Wed Feb 12 15:15:25 MSK 2025</realise>
+    <timeToRead>6</timeToRead>
+    <views>544</views>
+    <imgAddress></imgAddress>
+    <prehedder></prehedder>
+    <Rubriks>
+      <rubriks>Мессенджеры*</rubriks>
+      <rubriks>Интернет-маркетинг*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>vleonov</author>
+    <name>Давайте договоримся о тех.долге</name>
+    <realise>Wed Feb 12 20:23:38 MSK 2025</realise>
+    <timeToRead>4</timeToRead>
+    <views>528</views>
+    <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/dbb/4fe/59b/dbb4fe59b1571443273ed094774ad73c.jpeg</imgAddress>
+    <prehedder>— Нам нужно выплачивать тех.долг! — У нас нет на это ресурсов, нам нужно выпустить новую фичу! Знакомый диалог? Давайте поговорим про технический долг и про то, как он влияет на бизнесовые цели. И на выпуск новых фичей</prehedder>
+    <Rubriks>
+      <rubriks>Управление разработкой*</rubriks>
+      <rubriks>Управление проектами*</rubriks>
+      <rubriks>Программирование*</rubriks>
+      <rubriks>Совершенный код*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>AlextooG</author>
+    <name>Как за 10 минут создать тестировщик нагрузки для API на Node.js</name>
+    <realise>Wed Feb 12 19:08:59 MSK 2025</realise>
+    <timeToRead>6</timeToRead>
+    <views>372</views>
+    <imgAddress></imgAddress>
+    <prehedder></prehedder>
+    <Rubriks>
+      <rubriks>API*</rubriks>
+      <rubriks>Node.JS*</rubriks>
+      <rubriks>Тестирование веб-сервисов*</rubriks>
+      <rubriks>Тестирование IT-систем*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>boarderpro</author>
+    <name>Как я написал 1400 регламентов и почему это важно для бизнеса</name>
+    <realise>Wed Feb 12 17:51:03 MSK 2025</realise>
+    <timeToRead>4</timeToRead>
+    <views>429</views>
+    <imgAddress></imgAddress>
+    <prehedder></prehedder>
+    <Rubriks>
+      <rubriks>Подготовка технической документации*</rubriks>
+      <rubriks>Управление персоналом*</rubriks>
+      <rubriks>Управление продуктом*</rubriks>
+      <rubriks>Управление проектами*</rubriks>
+      <rubriks>Хранение данных*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>Hedgehog_art</author>
+    <name>Композитная архитектура: возвращение к монолиту на новом уровне. Часть 2</name>
+    <realise>Wed Feb 12 16:10:34 MSK 2025</realise>
+    <timeToRead>8</timeToRead>
+    <views>650</views>
+    <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/e9f/bd8/0b4/e9fbd80b4411ccaaeec82291f794d693.jpeg</imgAddress>
+    <prehedder>Привет! Меня зовут Максим Рогоза, я работаю корпоративным архитектором в крупнейших компаниях последние 7 лет. Это — вторая часть статьи про композитную архитектуру. Первую часть можно почитать тут.</prehedder>
+    <Rubriks>
+      <rubriks>Блог компании Слёрм</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>badcasedaily1</author>
+    <name>Можно ли тестировать одновременно всё? Многовариантное и многомерное A/B-тестирование: основы</name>
+    <realise>Wed Feb 12 17:45:42 MSK 2025</realise>
+    <timeToRead>8</timeToRead>
+    <views>138</views>
+    <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/1e2/ac7/e80/1e2ac7e80a5f7397b1a1ea0ed3afc78f.png</imgAddress>
+    <prehedder>Привет, Хабр! Если вы хотите протестировать сразу несколько факторов на странице (например, текст на кнопке, её цвет, размер, расположение) и понять, как эти факторы взаимодействуют — то вам нужно многовариативное тестирование. Сегодня рассмотрим несколько способов многовариантного тестирования.</prehedder>
+    <Rubriks>
+      <rubriks>Блог компании OTUS</rubriks>
+      <rubriks>Анализ и проектирование систем*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>Kpatoc452</author>
+    <name>Отмена defer вызова функции в Golang</name>
+    <realise>Wed Feb 12 18:15:47 MSK 2025</realise>
+    <timeToRead>3</timeToRead>
+    <views>718</views>
+    <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/ca5/e65/6ac/ca5e656acb84c5c621c12c9b51bd976f.jpeg</imgAddress>
+    <prehedder>Недавно столкнулся с такой проблемой, что не всегда приходиться выполнять defer вызов функции. Те кто знают, как работает defer можете листать вниз до реализации моего паттерна. Представьте, что у вас среди 10 кейсов, существует один, в котором не нужно вызывать defer func. Что же тогда делать...... Оператор defer помещает вызов функции в список. Список сохраненных вызовов выполняется после того, как возвращается функция. Defer обычно используется для упрощения функций, выполняющих различные действия по очистке.</prehedder>
+    <Rubriks>
+      <rubriks>Go*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>dmkjfs</author>
+    <name>Продуктовый код vs олимпиадный код</name>
+    <realise>Wed Feb 12 18:59:49 MSK 2025</realise>
+    <timeToRead>2</timeToRead>
+    <views>760</views>
+    <imgAddress></imgAddress>
+    <prehedder></prehedder>
+    <Rubriks>
+      <rubriks>Программирование*</rubriks>
+    </Rubriks>
+  </article>
+  <article>
+    <author>wmlab</author>
+    <name>Рыбка-советник для chess.com</name>
+    <realise>Wed Feb 12 18:07:03 MSK 2025</realise>
+    <timeToRead>6</timeToRead>
+    <views>755</views>
+    <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/e83/70f/13d/e8370f13d6cd2f978c9aa628935338b1.png</imgAddress>
+    <prehedder>Очень люблю играть в шахматы. Давно играю десятиминутки на chess.com. Но мой предел — в районе рейтинга 1500. И все потому, что много «зеваю». Вот если ли бы рядом был советчик, уберегающий от глупых зевков... А что, если прикрутить шахматный движок, чтобы он подсказывал в трудной позиции? Это нечестная игра, но с ботами любого рейтинга в качестве обучения — не возбраняется. То есть нужно поставить движок, как-то прочитать шахматную позицию из браузера, передать ее движку, получить ответ за разумное время.</prehedder>
+    <Rubriks>
+      <rubriks>.NET*</rubriks>
+      <rubriks>Программирование*</rubriks>
+      <rubriks>Visual Studio*</rubriks>
+    </Rubriks>
+  </article>
+</Articles>

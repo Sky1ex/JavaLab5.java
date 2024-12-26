@@ -1,5 +1,7 @@
 package ClassesToXml;
 
+import SubClasses.MiniArticle;
+import SubClasses.MiniArticleArray;
 import lombok.NoArgsConstructor;
 import model.Article;
 
@@ -23,12 +25,12 @@ public class AuthorArray
     {
         mapArrays = new ArrayList<>();
         String Author;
-        ArticleArray articles;
+        MiniArticleArray articles;
         Set<String> set = _articlesByAuthor.keySet();
         for(String temp : set)
         {
             Author = temp;
-            ArticleArray tempArray = new ArticleArray(_articlesByAuthor.get(temp));
+            MiniArticleArray tempArray = new MiniArticleArray(_articlesByAuthor.get(temp));
             articles = tempArray;
             mapArrays.add(new MapArray(Author, articles));
         }

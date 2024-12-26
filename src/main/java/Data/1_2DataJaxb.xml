@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Articles>
+    <article>
+        <author>zaurio</author>
+        <name>Angie ADC в Реестре ПО или «А чем это отличается от веб-сервера?»</name>
+        <realise>Wed Jan 29 08:52:55 MSK 2025</realise>
+        <timeToRead>10</timeToRead>
+        <views>158</views>
+        <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/e2a/734/a9a/e2a734a9aaad903416a0df33882c779d.png</imgAddress>
+        <Rubriks>
+            <rubriks>Сетевые технологии*</rubriks>
+            <rubriks>Системное администрирование*</rubriks>
+            <rubriks>IT-инфраструктура*</rubriks>
+            <rubriks>IT-компании</rubriks>
+        </Rubriks>
+        <prehedder>— Знакомьтесь! Пудинг, это Алиса. Алиса, это Пудинг. — Знакомьтесь! Angie ADC, это Алиса. Алиса, это Angie ADC. По случаю добавления в Реестр ПО нашего нового продукта Angie ADC расскажем подробнее “а про что это”. ADC расшифровывается как Application Delivery Controller, можно перевести как “контроллер доставки приложений“ или просто система балансировки. Так как у этого названия много общего с названием балансировщик нагрузки (load balancer), возникает вопрос “а в чем же отличие?”. Попробуем разобраться.</prehedder>
+    </article>
+    <article>
+        <author>Surf_Studio</author>
+        <name>Flutter форкнули и похоронили. Эксперты о Flock, поводах для беспокойства и будущем фреймворка</name>
+        <realise>Wed Jan 29 08:58:31 MSK 2025</realise>
+        <timeToRead>11</timeToRead>
+        <views>203</views>
+        <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/c18/ff1/a6a/c18ff1a6a58311f9a0347f1475713573.png</imgAddress>
+        <Rubriks>
+            <rubriks>Блог компании Surf</rubriks>
+            <rubriks>Flutter*</rubriks>
+        </Rubriks>
+        <prehedder>Про «смерть» Flutter говорят каждый год, иногда по нескольку раз. Сейчас разговоры об этом получили новый виток — во многом после сокращений в Google и появления форка Flock, который якобы заменит основную ветку. Разбираем страхи, связанные с фреймворком, и отвечаем на основные вопросы по Flutter и Flock с экспертами. За помощь в написании статьи спасибо ведущим Flutter-инженерам Евгению Сатурову, Михаилу «Fox» Матюнину, Сергею Кольцову и Евгению Коту.</prehedder>
+    </article>
+    <article>
+        <author>FirstJohn</author>
+        <name>Как забрать фотки с флешки, если Android их не отдаёт</name>
+        <realise>Wed Jan 29 08:53:33 MSK 2025</realise>
+        <timeToRead>12</timeToRead>
+        <views>214</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/341/3c9/de5/3413c9de58ab88d5089d7111c97d6ff2.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Блог компании FirstVDS</rubriks>
+            <rubriks>F#*</rubriks>
+            <rubriks>.NET*</rubriks>
+            <rubriks>Смартфоны</rubriks>
+            <rubriks>Программирование*</rubriks>
+        </Rubriks>
+        <prehedder>Как-то так получилось, что я никогда не воспринимал Android-телефон как объект, содержимым которого можно управлять из обычного .fsx. Все данные туда и обратно я таскал исключительно ручками при помощи USB и проводника. Дальше на стороне компа их мог раскидывать скрипт, но в зону телефона я не лез. Максимум, мог написать мобильное приложение для систематических операций с загрузкой на сервер и обратно. Однако недавно нужда заставила меня проникнуть из скрипта в обе области сразу, и это оказалось настолько проще, чем я предполагал, что теперь я испытываю злость и сожаление (как будто проморгал выигрышную комбинацию и додавливал противника лишние 4 хода). Дисклеймер: До этого всё, что я публиковал на Хабре, касалось тем, которые мне известны очень хорошо. Ну или как минимум, затрагиваемое пространство всегда было заметно меньше известного. В этот раз ситуация обратная. Я случайно набрёл на интересную нишу и поверхностно изучил её. Так как я благополучно решил все свои задачи, то вряд ли буду раскапывать тему дальше. Но раз уж мне удалось неявно закрыть несколько запылившихся ишуев на Гитхабе, то мне показалось полезным просуммировать в тексте собранные знания, а также некоторые исторические наработки. Считайте, что я на секунду появился в дверях вашей комнаты, сказал нечто вроде «Посоны, там-то и там-то есть что-то интересное» и свалил.</prehedder>
+    </article>
+    <article>
+        <author>ta2024</author>
+        <name>Как завод дизель-генераторов создавал идеальный B2B-лендинг в Вариокубе – в 15 раз увеличил поток клиентов без демпинга</name>
+        <realise>Wed Jan 29 08:28:28 MSK 2025</realise>
+        <timeToRead>11</timeToRead>
+        <views>116</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/7e5/b2f/d79/7e5b2fd79fad76465d686b4a9ae6603b.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Блог компании МАКО DIGITAL</rubriks>
+            <rubriks>Повышение конверсии*</rubriks>
+            <rubriks>Контекстная реклама*</rubriks>
+            <rubriks>Управление e-commerce*</rubriks>
+            <rubriks>Управление продажами*</rubriks>
+        </Rubriks>
+        <prehedder>Как продавать сложные товары, если прогибаться под скидки конкурентов не хочется? Почему так непросто вывести рекламу на рентабельность и увеличить продажи? Суровый завод дизель-генераторов сегментировал кампании и сделал релевантные объявления. Возвращал 99% уходящих пользователей. Бил ремаркетингом по мозгам тех, кто «подумает». Обучил РК по квал-лидам. Отразил фрод-атаку и в 15 раз масштабировался через Вариокуб.</prehedder>
+    </article>
+    <article>
+        <author>8Michelle</author>
+        <name>Как на самом деле работает Attention</name>
+        <realise>Wed Jan 29 09:02:58 MSK 2025</realise>
+        <timeToRead>8</timeToRead>
+        <views>116</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/7a6/3d0/29e/7a63d029ebb3a207a494d11cb738976e.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Блог компании Конференции Олега Бунина (Онтико)</rubriks>
+            <rubriks>Блог компании Okko</rubriks>
+            <rubriks>Машинное обучение*</rubriks>
+            <rubriks>Искусственный интеллект</rubriks>
+        </Rubriks>
+        <prehedder>Как именно работают механизмы, которые позволяют LLM так эффективно взаимодействовать с контекстом? Принято рассматривать нейронные сети как black-box, не разбираясь, что на самом деле происходит во время их инференса. Однако можно немного заглянуть «в мозги» нейронным сетям и попытаться понять, за что отвечают те или иные группы параметров модели. Меня зовут Михаил Коновалов, я работаю ML-инженером в Okko. В этой статье я хочу рассмотреть несколько публикаций, посвященных интерпретации механизма Attention в трансформерах.</prehedder>
+    </article>
+    <article>
+        <author>stein_osint</author>
+        <name>Личный VPN: юзер ликует, VLESS смеётся, а РКН плачет</name>
+        <realise>Wed Jan 29 09:07:30 MSK 2025</realise>
+        <timeToRead>6</timeToRead>
+        <views>666</views>
+        <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/9e7/e7a/a86/9e7e7aa86c4edf0f182261663cd98b6a.png</imgAddress>
+        <Rubriks>
+            <rubriks>Информационная безопасность*</rubriks>
+            <rubriks>Геоинформационные сервисы*</rubriks>
+            <rubriks>Хостинг</rubriks>
+            <rubriks>Системное администрирование*</rubriks>
+            <rubriks>DIY или Сделай сам</rubriks>
+        </Rubriks>
+        <prehedder>Эта статья — расширенный туториал как оформить сервер и поднять свой VPN на протоколе VLESS с XTLS-Reality за 10 минут, который выделяется на общем плане тем, что трафик шифруется и маскируется под подключение к популярным сайтам (доменам), тем самым станет тёмной лошадкой для ТСПУ.</prehedder>
+    </article>
+    <article>
+        <author>Cloud4Y</author>
+        <name>Миграция Exchange 2013-2019</name>
+        <realise>Wed Jan 29 08:34:21 MSK 2025</realise>
+        <timeToRead>22</timeToRead>
+        <views>165</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/99d/a5c/ee1/99da5cee123dea5825fb59116fe5cff9.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Блог компании Cloud4Y</rubriks>
+            <rubriks>Системное администрирование*</rubriks>
+        </Rubriks>
+        <prehedder>В прошлом году мы приняли давно назревшее решение об обновлении Домена и Exchange на 2019. Работа очень объёмная, процесс длится уже больше года. Рассказываем, как мы готовили и настраивали сервера.</prehedder>
+    </article>
+    <article>
+        <author>APPKODE</author>
+        <name>Отбираем хлеб у нативных разработчиков: миграция с Kotlin/Swift на RN</name>
+        <realise>Wed Jan 29 09:10:40 MSK 2025</realise>
+        <timeToRead>6</timeToRead>
+        <views>106</views>
+        <imgAddress>https://habrastorage.org/r/w1560/getpro/habr/upload_files/718/f0e/049/718f0e0495aad93e5ff5375ac4d04bb9.png</imgAddress>
+        <Rubriks>
+            <rubriks>React Native*</rubriks>
+            <rubriks>Kotlin*</rubriks>
+            <rubriks>Swift*</rubriks>
+            <rubriks>Разработка мобильных приложений*</rubriks>
+        </Rubriks>
+        <prehedder>Меня зовут Александр Чернов, я фронтенд-разработчик в KODE и я использую React Native в разработке мобильных приложений уже более семи лет. Сейчас расскажу вам, как мы у нативных разработчиков хлеб отбирали.</prehedder>
+    </article>
+    <article>
+        <author>aleks1k</author>
+        <name>Промптинг: действительно полезное руководство</name>
+        <realise>Wed Jan 29 08:31:41 MSK 2025</realise>
+        <timeToRead>11</timeToRead>
+        <views>248</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/1e3/ab3/986/1e3ab3986f5c60538c9f3988166641be.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Искусственный интеллект</rubriks>
+            <rubriks>Машинное обучение*</rubriks>
+            <rubriks>Natural Language Processing*</rubriks>
+        </Rubriks>
+        <prehedder>Промпт-инженеринг - это не просто наука, это настоящее искусство, требующее практики и постоянного совершенствования. Вооружившись знаниями из этого руководства и регулярно применяя их на практике, вы сможете создавать более эффективные промпты и получать именно те результаты, которые вам нужны.</prehedder>
+    </article>
+    <article>
+        <author>Aigul_Shadrina</author>
+        <name>Суд с ФНС: зарплата «в конверте» и работники на 0,1–0,5 ставки обошлись компании в 44 млн рублей</name>
+        <realise>Wed Jan 29 09:06:29 MSK 2025</realise>
+        <timeToRead>12</timeToRead>
+        <views>226</views>
+        <imgAddress>https://habrastorage.org/r/w780/getpro/habr/upload_files/5eb/f47/def/5ebf47defe1636eb4e8b92c6c5e66f22.jpg</imgAddress>
+        <Rubriks>
+            <rubriks>Бизнес-модели*</rubriks>
+            <rubriks>Финансы в IT</rubriks>
+            <rubriks>Законодательство в IT</rubriks>
+            <rubriks>Развитие стартапа</rubriks>
+        </Rubriks>
+        <prehedder>Современные предприниматели знают, что «серая зарплата» — табу, всё нужно оформлять официально. Но до сих пор встречаются компании, которые пытаются сэкономить в моменте: оформляют сотрудников на 0,1 или 0,5 ставки с зарплатой ниже МРОТ и выплачивают им большую часть «в конверте». Какова вероятность, что налоговая придёт с проверкой и обнаружит схему? Разбираю судебное дело краснодарской компании, которой налоговики после выездной проверки доначислили ~44 млн зарплатных налогов, НДФЛ и пеней. А в конце статьи делюсь небольшой аналитикой по серой зарплате и трендами ФНС.</prehedder>
+    </article>
+</Articles>

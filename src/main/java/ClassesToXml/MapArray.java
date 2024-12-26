@@ -1,5 +1,6 @@
 package ClassesToXml;
 
+import SubClasses.MiniArticleArray;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,5 +22,5 @@ public class MapArray
     private String Author;
     @Getter
     @XmlElement(name = "articles")
-    private ArticleArray articles;
+    private MiniArticleArray articles;
 }
