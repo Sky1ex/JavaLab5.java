@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Performances>
+  <Performance>
+    <Name>Белые ночи12+</Name>
+    <AgeLimit>12+</AgeLimit>
+    <Size>70</Size>
+    <ImgAddress>/media/afisha/2736_564c3a9dba907eb1cad546a80b9c76.jpg</ImgAddress>
+    <Dates>
+      <Date>28 Вт 15:00</Date>
+      <Date>28 Вт 18:30</Date>
+      <Date>18 Вт 15:00</Date>
+      <Date>18 Вт 18:30</Date>
+    </Dates>
+  </Performance>
+  <Performance>
+    <Name>Уроки французского12+</Name>
+    <AgeLimit>12+</AgeLimit>
+    <Size>70</Size>
+    <ImgAddress>/media/afisha/2749_9a5966cd3c432fe7bb328d3b8179c1.jpg</ImgAddress>
+    <Dates>
+      <Date>11 Вт 15:00</Date>
+      <Date>11 Вт 18:30</Date>
+    </Dates>
+  </Performance>
+  <Performance>
+    <Name>Первая любовь12+</Name>
+    <AgeLimit>12+</AgeLimit>
+    <Size>75</Size>
+    <ImgAddress>/media/afisha/2728_895c512d5f38af1d7d859df7e73abf.jpg</ImgAddress>
+    <Dates>
+      <Date>25 Сб 15:00</Date>
+      <Date>25 Вт 15:00</Date>
+      <Date>25 Вт 18:30</Date>
+    </Dates>
+  </Performance>
+  <Performance>
+    <Name>#Я_Раскольников12+</Name>
+    <AgeLimit>12+</AgeLimit>
+    <Size>80</Size>
+    <ImgAddress>/media/afisha/2718_b8573e260ecf8ea1fed206d0ca3b7a.jpg</ImgAddress>
+    <Dates>
+      <Date>21 Вт 15:00</Date>
+      <Date>21 Вт 18:30</Date>
+    </Dates>
+  </Performance>
+</Performances>

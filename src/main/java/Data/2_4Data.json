@@ -1,0 +1,25 @@
+[ {
+  "name" : "Белые ночи12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "imgAddress" : "/media/afisha/2736_564c3a9dba907eb1cad546a80b9c76.jpg",
+  "dates" : [ "28 Вт 15:00", "28 Вт 18:30", "18 Вт 15:00", "18 Вт 18:30" ]
+}, {
+  "name" : "Уроки французского12+",
+  "ageLimit" : "12+",
+  "size" : 70,
+  "imgAddress" : "/media/afisha/2749_9a5966cd3c432fe7bb328d3b8179c1.jpg",
+  "dates" : [ "11 Вт 15:00", "11 Вт 18:30" ]
+}, {
+  "name" : "Первая любовь12+",
+  "ageLimit" : "12+",
+  "size" : 75,
+  "imgAddress" : "/media/afisha/2728_895c512d5f38af1d7d859df7e73abf.jpg",
+  "dates" : [ "25 Сб 15:00", "25 Вт 15:00", "25 Вт 18:30" ]
+}, {
+  "name" : "#Я_Раскольников12+",
+  "ageLimit" : "12+",
+  "size" : 80,
+  "imgAddress" : "/media/afisha/2718_b8573e260ecf8ea1fed206d0ca3b7a.jpg",
+  "dates" : [ "21 Вт 15:00", "21 Вт 18:30" ]
+} ]

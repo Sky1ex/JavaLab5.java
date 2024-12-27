@@ -30,6 +30,10 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.DayOfWeek;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -501,14 +505,26 @@ public class App
         public void Print(ArrayList<Performance> args) throws JsonProcessingException {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
-            args = (ArrayList<Performance>) args.stream().distinct().collect(Collectors.toList());
 
-            ArrayList<Miniperformance> argsNew = (ArrayList<Miniperformance>) args.stream()
-                    .map(Miniperformance::new)
+            List<PerformanceWithDates> performanceWithDatesList = args.stream()
+                    .collect(Collectors.groupingBy(Performance::getName))
+                    .entrySet().stream()
+                    .map(entry -> {
+                        Performance firstPerformance = entry.getValue().get(0);
+                        List<String> dates = entry.getValue().stream()
+                                .map(Performance::getDate)
+                                .collect(Collectors.toCollection(ArrayList::new));
+                        return new PerformanceWithDates(
+                                firstPerformance.getName(),
+                                firstPerformance.getAgeLimit(),
+                                firstPerformance.getSize(),
+                                firstPerformance.getImgAddress(),
+                                new ArrayList<>(dates)
+                        );
+                    })
                     .collect(Collectors.toList());
 
-
-            String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(argsNew);
+            String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(performanceWithDatesList);
             try (FileWriter writer = new FileWriter("src/main/java/Data/2_3Data.json", false)) {
                 writer.write(json);
             } catch (Exception e) {
@@ -526,19 +542,146 @@ public class App
         public void Print(ArrayList<Performance> args) throws JsonProcessingException {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
-            args = (ArrayList<Performance>) args.stream().distinct().collect(Collectors.toList());
 
-            ArrayList<Miniperformance> argsNew = (ArrayList<Miniperformance>) args.stream()
-                    .map(Miniperformance::new)
+            List<PerformanceWithDates> performanceWithDatesList = args.stream()
+                    .filter(performance -> {
+                        DayOfWeek dayOfWeek = getDayOfWeek(performance.getDate());
+                        LocalTime time = getTime(performance.getDate());
+                        return (dayOfWeek == DayOfWeek.TUESDAY || dayOfWeek == DayOfWeek.THURSDAY || dayOfWeek == DayOfWeek.SATURDAY)
+                                && time.isAfter(LocalTime.of(14, 59)); // После 15:00 включительно
+                    })
+                    .filter(performance -> performance.getSize() < 90) // 90 минут = 1,5 часа
+                    .collect(Collectors.groupingBy(Performance::getName))
+                    .entrySet().stream()
+                    .map(entry -> {
+                        Performance firstPerformance = entry.getValue().get(0);
+                        List<String> dates = entry.getValue().stream()
+                                .map(Performance::getDate)
+                                .collect(Collectors.toCollection(ArrayList::new));
+                        return new PerformanceWithDates(
+                                firstPerformance.getName(),
+                                firstPerformance.getAgeLimit(),
+                                firstPerformance.getSize(),
+                                firstPerformance.getImgAddress(),
+                                new ArrayList<>(dates)
+                        );
+                    })
                     .collect(Collectors.toList());
-
-
-            String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(argsNew);
-            try (FileWriter writer = new FileWriter("src/main/java/Data/2_2Data.json", false)) {
+            String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(performanceWithDatesList);
+            try (FileWriter writer = new FileWriter("src/main/java/Data/2_4Data.json", false)) {
                 writer.write(json);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
+        }
+
+        private DayOfWeek getDayOfWeek(String date) {
+            // Создаем маппинг сокращений дней недели на русском языке
+            Map<String, DayOfWeek> dayOfWeekMap = new HashMap<>();
+            dayOfWeekMap.put("Пн", DayOfWeek.MONDAY);
+            dayOfWeekMap.put("Вт", DayOfWeek.TUESDAY);
+            dayOfWeekMap.put("Ср", DayOfWeek.WEDNESDAY);
+            dayOfWeekMap.put("Чт", DayOfWeek.THURSDAY);
+            dayOfWeekMap.put("Пт", DayOfWeek.FRIDAY);
+            dayOfWeekMap.put("Сб", DayOfWeek.SATURDAY);
+            dayOfWeekMap.put("Вс", DayOfWeek.SUNDAY);
+
+            // Извлекаем сокращение дня недели из строки даты
+            String dayOfWeekStr = date.substring(3, 5).trim();
+
+            // Получаем соответствующий день недели
+            return dayOfWeekMap.get(dayOfWeekStr);
+        }
+
+        private LocalTime getTime(String date) {
+            // Извлекаем время из строки даты
+            String timeStr = date.substring(6).trim();
+            DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm");
+            return LocalTime.parse(timeStr, timeFormatter);
+        }
+    }
+
+    /**
+     * Множество различных спектаклей без поля ageLimit в формате json
+     */
+    static class Print2_4XmlDom<T> implements ParserWorker.Print<ArrayList<Performance>>
+    {
+        @Override
+        public void Print(ArrayList<Performance> args) throws JsonProcessingException, ParserConfigurationException
+        {
+            List<PerformanceWithDates> performanceWithDatesList = args.stream()
+                    .filter(performance -> {
+                        DayOfWeek dayOfWeek = getDayOfWeek(performance.getDate());
+                        LocalTime time = getTime(performance.getDate());
+                        return (dayOfWeek == DayOfWeek.TUESDAY || dayOfWeek == DayOfWeek.THURSDAY || dayOfWeek == DayOfWeek.SATURDAY)
+                                && time.isAfter(LocalTime.of(14, 59)); // После 15:00 включительно
+                    })
+                    .filter(performance -> performance.getSize() < 90) // 90 минут = 1,5 часа
+                    .collect(Collectors.groupingBy(Performance::getName))
+                    .entrySet().stream()
+                    .map(entry -> {
+                        Performance firstPerformance = entry.getValue().get(0);
+                        List<String> dates = entry.getValue().stream()
+                                .map(Performance::getDate)
+                                .collect(Collectors.toCollection(ArrayList::new));
+                        return new PerformanceWithDates(
+                                firstPerformance.getName(),
+                                firstPerformance.getAgeLimit(),
+                                firstPerformance.getSize(),
+                                firstPerformance.getImgAddress(),
+                                new ArrayList<>(dates)
+                        );
+                    })
+                    .collect(Collectors.toList());
+
+            Document document = DocumentHelper.createDocument();
+            Element root = document.addElement("Performances");
+
+            for (PerformanceWithDates performanceWithDates : performanceWithDatesList) {
+                Element performanceElement = root.addElement("Performance");
+                performanceElement.addElement("Name").setText(performanceWithDates.getName());
+                performanceElement.addElement("AgeLimit").setText(performanceWithDates.getAgeLimit());
+                performanceElement.addElement("Size").setText(String.valueOf(performanceWithDates.getSize()));
+                performanceElement.addElement("ImgAddress").setText(performanceWithDates.getImgAddress());
+
+                Element datesElement = performanceElement.addElement("Dates");
+                for (String date : performanceWithDates.getDates()) {
+                    datesElement.addElement("Date").setText(date);
+                }
+            }
+
+            try (FileWriter writer = new FileWriter("src/main/java/Data/2_4DataDom.xml", false)) {
+                OutputFormat format = OutputFormat.createPrettyPrint();
+                XMLWriter xmlWriter = new XMLWriter(writer, format);
+                xmlWriter.write(document);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        private DayOfWeek getDayOfWeek(String date) {
+            // Создаем маппинг сокращений дней недели на русском языке
+            Map<String, DayOfWeek> dayOfWeekMap = new HashMap<>();
+            dayOfWeekMap.put("Пн", DayOfWeek.MONDAY);
+            dayOfWeekMap.put("Вт", DayOfWeek.TUESDAY);
+            dayOfWeekMap.put("Ср", DayOfWeek.WEDNESDAY);
+            dayOfWeekMap.put("Чт", DayOfWeek.THURSDAY);
+            dayOfWeekMap.put("Пт", DayOfWeek.FRIDAY);
+            dayOfWeekMap.put("Сб", DayOfWeek.SATURDAY);
+            dayOfWeekMap.put("Вс", DayOfWeek.SUNDAY);
+
+            // Извлекаем сокращение дня недели из строки даты
+            String dayOfWeekStr = date.substring(3, 5).trim();
+
+            // Получаем соответствующий день недели
+            return dayOfWeekMap.get(dayOfWeekStr);
+        }
+
+        private LocalTime getTime(String date) {
+            // Извлекаем время из строки даты
+            String timeStr = date.substring(6).trim();
+            DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm");
+            return LocalTime.parse(timeStr, timeFormatter);
         }
     }
 
@@ -568,9 +711,9 @@ public class App
         parser.setParserSettings(new DramTeatrSettings());
         parser.onCompletedList.add(new Completed());
         parser.onNewDataList.add(new NewData());
-        parser.onPrintList.add(new Print2_2Json());
+        parser.onPrintList.add(new Print2_4XmlDom());
         parser.Start();
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         parser.Abort();
     }
 }

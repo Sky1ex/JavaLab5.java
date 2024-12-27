@@ -18,8 +18,6 @@ public class PerformanceWithDates
     @Getter
     int size;
     @Getter
-    String date;
-    @Getter
     String imgAddress;
     @Getter
     ArrayList<String> dates = new ArrayList<>();
